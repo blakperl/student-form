@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 25px solid rgba(211, 94, 52, 0.864);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.all {
+  border-left: 2px solid rgba(163, 156, 156, 0.755);
+  border-right: 2px solid rgba(163, 156, 156, 0.755);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.logo {
+  height: 78px;
+  width: 78px;
+  background-color: purple;
+  border: 2px solid rgba(211, 94, 52, 0.864);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-left: 1rem;
+}
+.header {
+  display: flex;
+  gap: 3rem;
+}
+.headline {
+  margin-top: 12px;
+  width: 64%;
+}
+.section1 {
+  margin-top: 1rem;
+}
+.form1 input {
+  width: 32%;
+  padding: 10px 15px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+h2 {
+  color: rgb(87, 83, 83);
+  font-size: 21px;
+}
+.form2 input,
+.form3 input,
+.form4 input,
+.form5 input {
+  width: 48%;
+  padding: 10px 15px;
+  margin-top: 12px;
+  box-sizing: border-box;
+}
+.section2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form5 input {
+  margin-top: 8px;
+}
+.section4{
+   margin: 1rem 0;
+}
+.form6 {
+  height: 6rem;
+  width: 98.5%;
+  margin-top: 6px;
+  border: 1px solid rgba(163, 156, 156, 0.755);
+  border-bottom: 4px solid rgba(163, 156, 156, 0.755);
+  background-color: rgba(195, 193, 193, 0.207);
+}
+button {
+  margin: 8px;
+  padding: 8px 10px;
+}
+.form7 {
+  border-top: 1px solid rgba(163, 156, 156, 0.755);
+}
+.box1, .box2 {
+    height: 2.8rem;
+    width: 12%;
+    margin-left: 6px ;
+    border-right: 1px solid rgba(163, 156, 156, 0.755) ;
+}
+img {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.box3, .box4{
+    height: 2.8rem;
+    width: 15%;
+    margin-left: 6px ;
+    margin-right: 1rem;
+    border-right: 1px solid rgba(163, 156, 156, 0.755) ;
+}
+.box5 {
+    width: 39%;
+    border-right: 1px solid rgba(163, 156, 156, 0.755) ;
+}
+textarea{
+    width: 98.7%;
+    padding: 10px 15px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}

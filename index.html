@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="header">
+        <div class="logo">
+          <h4 style="text-align: center; margin: auto">YOUR LOGO HERE</h4>
+        </div>
+        <div class="headline">
+          <h1>Student Registration Form</h1>
+          <p style="font-size: 14px">
+            Fill out the form to apply for the training courses. You can
+            consider your application accepted after you receive a confirmation
+            email
+          </p>
+        </div>
+      </div>
+      <div class="section1">
+        <h2>Student Informaton</h2>
+        <div class="form1">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Middle Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <div class="form2">
+          <input
+            type="text"
+            placeholder="Date of Birth"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"
+            style="margin-right: 24px" />
+          <input type="text" placeholder="Student ID" />
+        </div>
+      </div>
+      <div class="section2">
+        <h2 style="margin-bottom: 8px">Address</h2>
+        <input
+          type="text"
+          style="width: 95.6%; padding: 10px 15px"
+          placeholder="Street Address" />
+        <div class="form3">
+          <input type="text" placeholder="City" style="margin-right: 24px" />
+          <input type="text" placeholder="State / province" />
+        </div>
+        <div class="form4">
+          <input type="text" placeholder="Country" style="margin-right: 24px" />
+          <input type="text" placeholder="ZIP Code" />
+        </div>
+      </div>
+      <div class="section3">
+        <h2>Contact Informaton</h2>
+        <div class="form5">
+          <input type="text" placeholder="Email" style="margin-right: 24px" />
+          <input type="text" />
+        </div>
+      </div>
+      <div class="section4">
+        <h2>Courses <span style="color: rgb(233, 75, 75)">*</span></h2>
+        <div class="form6">
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              style="width: 12px; height: 12px">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v12m6-6H6" />
+            </svg>
+            Add new record
+          </button>
+          <div class="form7">
+            <div style="display: flex">
+              <div class="box1">
+                <p>Course <img src="./dropdown.svg" alt="" /></p>
+              </div>
+              <div class="box2">
+                <p>Level <img src="./dropdown.svg" alt="" /></p>
+              </div>
+              <div class="box3">
+                <p>Language <img src="./dropdown.svg" alt="" /></p>
+              </div>
+              <div class="box4">
+                <p>Start Date <img src="./dropdown.svg" alt="" /></p>
+              </div>
+              <div class="box5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <textarea
+        rows="7"
+        placeholder="Comments"></textarea>
+    </div>
+  </body>
+</html>
